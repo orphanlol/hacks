@@ -1,0 +1,19 @@
+javascript:(function(){
+    var videoURL = prompt("Enter the YouTube video URL:");
+    if (videoURL) {
+        var videoID = extractVideoID(videoURL);
+        if (videoID) {
+            var embedHTML = '<!DOCTYPE html><html><head><title>Embedded YouTube Video</title><style>body { display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }</style></head><body><iframe width="560" height="315" src="https://www.youtube.com/embed/' + videoID + '" frameborder="0" allowfullscreen></iframe></body></html>';
+            var newWindow = window.open();
+            newWindow.document.write(embedHTML);
+            newWindow.document.close();
+        } else {
+            alert("Invalid YouTube video URL.");
+        }
+    }
+    
+    function extractVideoID(url) {
+        var match = url.match(/(?:\?|&)v=([a-zA-Z0-9_-]+)/i);
+        return match ? match[1] : null;
+    }
+})();
