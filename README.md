@@ -1,3 +1,3 @@
 # wip
-upcoming shit for my school
+upcoming for my school <br>
 this will make your loins set on fire
