@@ -1,213 +1,250 @@
-<!DOCTYPE html>
 <html>
-<head>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <title>Blade Ball</title>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>epic</title>
+    <meta name="description" content="Epic website. Games and more.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://orphanlol.github.io/Kochic/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://orphanlol.github.io/Kochic/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://orphanlol.github.io/Kochic/favicon-16x16.png">
+    <link rel="manifest" href="https://orphanlol.github.io/Kochic/site.webmanifest">
     <style>
-        /* Mobile Optimization */
-@media screen and (max-width: 1020px) {
-    #container, #header, #content, #footer, {
-        float: none;
-        width: auto;
-    }
-    ul.topnav li {
-        width: 100%;
-        padding: 0%;
-    }
-    ul.topnav li {
-        display: table;
-    }
-}
-div#footer {
-    padding: 1px;
-    color: white;
-    background-color: black;
-    clear: left;
-    text-align: center;
-}
-img {
-    max-width: 100%;
-    min-width: 300px;
-    height: auto;
-}
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
-.centerimg {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-body {
-    background-color: #9b54ff;
-}
-h1 {
-    -webkit-animation: fadein 5s;
-    /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 5s;
-    /* Firefox < 16 */
-    -ms-animation: fadein 5s;
-    /* Internet Explorer */
-    -o-animation: fadein 5s;
-    /* Opera < 12.1 */
-    animation: fadein 5s;
-}
-h3 {
-    -webkit-animation: fadein 5s;
-    /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 5s;
-    /* Firefox < 16 */
-    -ms-animation: fadein 5s;
-    /* Internet Explorer */
-    -o-animation: fadein 5s;
-    /* Opera < 12.1 */
-    animation: fadein 5s;
-}
-a {
-    text-decoration: none;
-    color: black;
-}
-.buttonmain {
-    border: none;
-    padding: 14px 28px;
-    cursor: pointer;
-    font-family: Verdana;
-    font-size: 30px;
-    background-color: inherit;
-    margin: 0;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    -webkit-animation: fadein 4s;
-    /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 4s;
-    /* Firefox < 16 */
-    -ms-animation: fadein 4s;
-    /* Internet Explorer */
-    -o-animation: fadein 4s;
-    /* Opera < 12.1 */
-    animation: fadein 4s;
-}
-.buttonmain:hover {
-    background: orange;
-     transition: 0.5s;
-}
-@keyframes fadein {
-    from {
-         opacity: 0;
-    }
-    to {
-         opacity: 1;
-    }
-}
-@-moz-keyframes fadein {
-    from {
-         opacity: 0;
-    }
-    to {
-         opacity: 1;
-    }
-}
-@-webkit-keyframes fadein {
-    from {
-         opacity: 0;
-    }
-    to {
-         opacity: 1;
-    }
-}
-@-ms-keyframes fadein {
-    from {
-         opacity: 0;
-    }
-    to {
-         opacity: 1;
-    }
-}
-@-o-keyframes fadein {
-    from {
-         opacity: 0;
-    }
-    to {
-         opacity: 1;
-    }
-}
-/* Status Bar */
-ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #0042FF;
-    text-align: center;
-}
-ul.topnav li {
-    display: inline-block;
-}
-ul.topnav li a {
-    display: inline-block;
-    color: White;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: 0.3s;
-    font-size: 17px;
-}
-ul.topnav li a:hover {
-    background-color: #FF4D05;
-}
-ul.topnav2 li a:hover {
-    background-color: #000000;
-}
-ul.topnav li.icon {
-    display: none;
-}
+      /* Mobile Optimization */
+      @media screen and (max-width: 1020px) {
 
-        body {
-            background-image: url("https://static.wikia.nocookie.net/bladeball/images/5/5c/Bot_2.png");
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
+        #container,
+        #header,
+        #content,
+        #footer,
+          {
+          float: none;
+          width: auto;
         }
-        
-        nav {
-            background-color: #f2f2f2;
-            padding: 10px;
+
+        ul.topnav li {
+          width: 100%;
+          padding: 0%;
         }
-        
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
+
+        ul.topnav li {
+          display: table;
         }
-        
-        nav ul li {
-            display: inline;
-            margin-right: 10px;
+      }
+
+      div#footer {
+        padding: 1px;
+        color: white;
+        background-color: black;
+        clear: left;
+        text-align: center;
+      }
+
+      img {
+        max-width: 100%;
+        min-width: 300px;
+        height: auto;
+      }
+
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+      }
+
+      .centerimg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+
+      body {
+        background-color: #9b54ff;
+      }
+
+      h1 {
+        -webkit-animation: fadein 5s;
+        /* Safari, Chrome and Opera > 12.1 */
+        -moz-animation: fadein 5s;
+        /* Firefox < 16 */
+        -ms-animation: fadein 5s;
+        /* Internet Explorer */
+        -o-animation: fadein 5s;
+        /* Opera < 12.1 */
+        animation: fadein 5s;
+      }
+
+      h3 {
+        -webkit-animation: fadein 5s;
+        /* Safari, Chrome and Opera > 12.1 */
+        -moz-animation: fadein 5s;
+        /* Firefox < 16 */
+        -ms-animation: fadein 5s;
+        /* Internet Explorer */
+        -o-animation: fadein 5s;
+        /* Opera < 12.1 */
+        animation: fadein 5s;
+      }
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+
+      .buttonmain {
+        border: none;
+        padding: 14px 28px;
+        cursor: pointer;
+        font-family: Verdana;
+        font-size: 30px;
+        background-color: inherit;
+        margin: 0;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        -webkit-animation: fadein 4s;
+        /* Safari, Chrome and Opera > 12.1 */
+        -moz-animation: fadein 4s;
+        /* Firefox < 16 */
+        -ms-animation: fadein 4s;
+        /* Internet Explorer */
+        -o-animation: fadein 4s;
+        /* Opera < 12.1 */
+        animation: fadein 4s;
+      }
+
+      .buttonmain:hover {
+        background: orange;
+        transition: 0.5s;
+      }
+
+      @keyframes fadein {
+        from {
+          opacity: 0;
         }
-        
-        nav ul li a {
-            text-decoration: none;
-            color: #333;
-            padding: 5px;
+
+        to {
+          opacity: 1;
         }
+      }
+
+      @-moz-keyframes fadein {
+        from {
+          opacity: 0;
+        }
+
+        to {
+          opacity: 1;
+        }
+      }
+
+      @-webkit-keyframes fadein {
+        from {
+          opacity: 0;
+        }
+
+        to {
+          opacity: 1;
+        }
+      }
+
+      @-ms-keyframes fadein {
+        from {
+          opacity: 0;
+        }
+
+        to {
+          opacity: 1;
+        }
+      }
+
+      @-o-keyframes fadein {
+        from {
+          opacity: 0;
+        }
+
+        to {
+          opacity: 1;
+        }
+      }
+
+      /* Status Bar */
+      ul.topnav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #0042FF;
+        text-align: center;
+      }
+
+      ul.topnav li {
+        display: inline-block;
+      }
+
+      ul.topnav li a {
+        display: inline-block;
+        color: White;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        transition: 0.3s;
+        font-size: 17px;
+      }
+
+      ul.topnav li a:hover {
+        background-color: #FF4D05;
+      }
+
+      ul.topnav2 li a:hover {
+        background-color: #000000;
+      }
+
+      ul.topnav li.icon {
+        display: none;
+      }
     </style>
-    <link rel="stylesheet" href="/css/style.css">
-</head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="panic.html">Panic</a></li>
-        </ul>
-    </nav>
-    <p>also the favicon isn't me its some random guy</p>
-</body>
+  </head>
+  <body>
+    <header style="background-color:black;">
+      <a href="https://www.youtube.com/@MrCreatorSolutions">
+        <img src="./Mr. Creator_files/wwdc23-keynote-logo.gif" style="width:30%;background-color:black;" class="center">
+      </a>
+    </header>
+    <ul class="topnav" id="topnav2" style="background-color: #000000;">
+      <li>
+        <h3 style="color:white;font-family: Verdana; text-align: center; transition-delay: 1s;">Creativity, development and more!</h3>
+      </li>
+    </ul>
+    <ul class="topnav" id="myTopnav">
+      <li>
+        <a href="https://orphanlol.github.io/Kochic/2023-may/home.php">Home</a>
+      </li>
+      <li>
+        <a href="https://orphanlol.github.io/Kochic/2023-may/downloads.php">Downloads</a>
+      </li>
+      <li>
+        <a href="https://twitter.com/MrCreator1" target="_blank">Find this developer!</a>
+      </li>
+      <li>
+        <a href="https://www.buymeacoffee.com/barttarof" target="_blank">Buy me a coffee!</a>
+      </li>
+    </ul>
+    <br>
+    <h1 style="font-family: Verdana; text-align: center; transition-delay: 2s;">rizzler</h1>
+    <h4 style="font-family: Verdana; text-align: center; transition-delay: 2s;">watch youtube</h4>
+    <h4 style="font-family: Verdana; text-align: center; transition-delay: 2s;">(Designed for ur devices)</h4>
+    <h1 style="font-family: Verdana; font-size: 20px; text-align: center; transition-delay: 4s;">Supports MacOS and now Windows!</h1>
+    <h1 style="text-align: center; font-family: Verdana; font-size: 30px; transition-delay: 6s;">
+      <a href="https://orphanlol.github.io/Kochic/piss.html">piss</a>
+    </h1>
+    <br>
+    <a href="https://orphanlol.github.io/Kochic/piss.html">
+      <img src="RandomImage.png" alt="" class="centerimg">
+    </a>
+    <br>
+    <br>
+    <br>
+  </body>
 </html>
