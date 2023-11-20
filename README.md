@@ -5,4 +5,4 @@ just fork but idrc
 ### About
 so yeah this just popped up
 #### Credits
-how about no
+Mr. Creator (euphoriatools.com) for mobile optimization code
