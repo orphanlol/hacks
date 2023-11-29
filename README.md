@@ -4,4 +4,4 @@
 ### History
 dont ask
 ## Credits
-- cheatsense for inspiration (even though they ban me)
+- cheatsense for inspiration (even though they ip ban me)
